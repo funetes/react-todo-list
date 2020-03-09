@@ -8,7 +8,7 @@ function Todo({todo}) {
       <div className="Todo__content">
         <div>todo : {todo.todo}</div>
         <div>group :  {todo.group}</div>
-        <div>createdAt : {todo.createdAt}</div>
+        <div>createdAt : {todo.date}</div>
       </div>
       <div className="Todo__todoButtons">
         <Done />

@@ -1,0 +1,19 @@
+.writeTodo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .5s;
+}
+.writeTodo :not(:last-child){
+  margin-bottom: 5px;
+}
+
+.writeTodo input {
+  text-align: center;
+  outline: none;
+}
