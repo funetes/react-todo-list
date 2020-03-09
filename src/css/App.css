@@ -15,7 +15,7 @@
   flex-direction: column;
 }
 
-.App .App__columns:nth-child(2) div{
+.App__columns__title{
   display: flex;
   justify-content: space-between;
 }

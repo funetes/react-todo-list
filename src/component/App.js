@@ -11,7 +11,7 @@ function App() {
         <GroupLists />
       </div>
       <div className="App__columns">
-        <div>
+        <div className="App__columns__title">
           <span>ToDoList</span>
           <AddTodos />
         </div>
