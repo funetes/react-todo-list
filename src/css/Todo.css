@@ -1,0 +1,16 @@
+.Todo{
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Todo__content{
+  display: flex;
+  flex-direction: column;
+}
+
+.Todo__todoButtons{
+  display: flex;
+  flex-direction: column;
+}

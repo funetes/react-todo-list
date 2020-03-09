@@ -1,0 +1,10 @@
+.GroupLists{
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  margin: 10px;
+}
+
+.GroupLists .GroupLists__row:first-child{
+  height: 90vh;
+}
