@@ -6,7 +6,7 @@
 
 .App .App__columns:first-child{
   border-right: 1px solid gray;
-  width: 25vw;
+  width: 30vw;
 }
 
 .App .App__columns:nth-child(2){
@@ -29,4 +29,6 @@
 
 .App__columns__title div{
   margin: 10px 10px;
+  display: flex;
+  align-items: center;
 }

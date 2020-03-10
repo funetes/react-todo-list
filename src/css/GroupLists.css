@@ -8,3 +8,13 @@
 .GroupLists .GroupLists__row:first-child{
   height: 90vh;
 }
+
+.showAll{
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+  border: 1px solid rgba(0,0,0,.5);
+  background-color: lightslategray;
+  padding: 8px 12px 10px 12px;
+  outline: none;
+}

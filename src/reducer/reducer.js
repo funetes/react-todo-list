@@ -2,19 +2,6 @@ const initialState = {
   todos : [],
   group : []
 }
-
-const state = {
-  todos:[{
-    text : 1,
-    group : "30",
-    id : 1234123413,
-    date: "2020.3.9"
-  }],
-  group : ["","",""]
-
-}
-
-
 export const reducer = (state = initialState , action) => {
   switch(action.type){
     case "ADDTODO":

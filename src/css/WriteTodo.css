@@ -14,6 +14,12 @@
 }
 
 .writeTodo input {
-  text-align: center;
   outline: none;
+  border: 1px solid rgba(0,0,0,.5);
+  background-color: lightgray;
+  padding: 8px 12px 10px 12px;
+}
+
+.writeTodo input:last-child{
+  background-color: lightslategray;
 }

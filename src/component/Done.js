@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-function Done() {
+function Done({getDoneState,done}) {
   return(
-    <button>Done</button>
+    <button onClick={getDoneState}>{done? 'done' : 'not yet'}</button>
   )
 }
 

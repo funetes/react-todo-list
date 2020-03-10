@@ -1,0 +1,19 @@
+.ListEntry{
+  text-align: center;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+  animation-duration: .5s;
+  cursor: pointer;
+}
+
+.ListEntry:hover{
+  background-color: #26252A;
+  transition:width 2s, height 2s, background-color 2s, transform 2s;
+  transition-duration: .3s
+}

@@ -15,7 +15,11 @@ class WriteTodo extends React.Component{
   onSubmit(e){
     e.preventDefault();
     if(this.state.todo === ""){
-      alert("write a todo...");
+      alert("write a todo");
+      return null;
+    }
+    if(this.state.group === ""){
+      alert("write a group");
       return null;
     }
     this.props.toggleButton();

@@ -1,9 +1,9 @@
 import React from 'react';
-
-function ListEntry() {
+import '../css/ListEntry.css';
+function ListEntry({group,getGroupName}) {
   return (
-    <div className="ListEntry">
-      <div>group:</div>
+    <div className="ListEntry" onClick={()=>{getGroupName(group)}}>
+      {group}
     </div>
   );
 }

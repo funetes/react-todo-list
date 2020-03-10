@@ -7,6 +7,7 @@
 	}
 }
 .Todo{
+  background-color: #26252A;
   border-radius: 5px;
   border: 1px solid black;
   padding :5px;
@@ -17,7 +18,7 @@
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: .5s;
+  animation-duration: .5s;
 }
 .Todo:not(:last-child){
   margin-bottom: 5px;
@@ -26,9 +27,43 @@
 .Todo__content{
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+
+.Todo__content div:not(:last-child){
+  margin-bottom: 5px;
+}
+
+.Todo__content div:last-child{
+  text-align: right;
+  margin-right: 5px;
+  font-size: 13px;
 }
 
 .Todo__todoButtons{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 80px;
+  border-left: 1px solid gray;
+  padding: 0 5px;
+}
+
+.Todo__todoButtons button:first-child{
+  background-color: lightseagreen;
+  color: white;
+  margin-bottom: 3px;
+  outline: none;
+}
+
+
+.done{
+  background-color: green;
+  transition:width 2s, height 2s, background-color 2s, transform 2s;
+  transition-duration: .5s
+}
+
+.notyet{
+  transition:width 2s, height 2s, background-color 2s, transform 2s;
+  transition-duration: .5s
 }
